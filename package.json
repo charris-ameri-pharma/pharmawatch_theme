@@ -1,7 +1,7 @@
 {
-  "name": "copenhagen_theme",
+  "name": "pharmawatch_theme",
   "version": "1.0.0",
-  "repository": "git@github.com:zendesk/copenhagen_theme.git",
+  "repository": "git@github.com:charris-ameri-pharma/pharmawatch_theme.git",
   "dependencies": {
     "node-fetch": "^2.1.2"
   },
