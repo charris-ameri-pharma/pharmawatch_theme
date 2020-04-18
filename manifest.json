@@ -13,28 +13,28 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#0072EF"
+          "value": "rgba(103, 154, 204, 1)"
         },
         {
           "identifier": "brand_text_color",
           "type": "color",
           "description": "brand_text_color_description",
           "label": "brand_text_color_label",
-          "value": "#FFFFFF"
+          "value": "rgba(0, 42, 74, 1)"
         },
         {
           "identifier": "text_color",
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#333333"
+          "value": "rgba(0, 51, 102, 1)"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "rgba(235, 109, 4, 1)"
         },
         {
           "identifier": "background_color",
@@ -53,6 +53,7 @@
           "type": "list",
           "description": "heading_font_description",
           "label": "heading_font_label",
+          "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif",
           "options": [
             {
               "label": "System",
@@ -126,6 +127,7 @@
           "type": "list",
           "description": "text_font_description",
           "label": "text_font_label",
+          "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif",
           "options": [
             {
               "label": "System",
@@ -270,7 +272,7 @@
           "type": "checkbox",
           "description": "recent_activity_description",
           "label": "recent_activity_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -289,14 +291,14 @@
           "type": "checkbox",
           "description": "article_author_description",
           "label": "article_author_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_article_comments",
           "type": "checkbox",
           "description": "article_comments_description",
           "label": "article_comments_label",
-          "value": true
+          "value": false
         },
         {
           "identifier": "show_follow_article",
@@ -324,7 +326,7 @@
           "type": "checkbox",
           "description": "article_sharing_description",
           "label": "article_sharing_label",
-          "value": true
+          "value": false
         }
       ]
     },
@@ -355,7 +357,7 @@
           "type": "checkbox",
           "description": "post_sharing_description",
           "label": "post_sharing_label",
-          "value": true
+          "value": false
         }
       ]
     },
