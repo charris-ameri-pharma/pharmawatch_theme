@@ -1,6 +1,6 @@
 {
-  "name": "Pharmawatch-Theme",
-  "author": "Casey Harris (based on Zendesk Copenhagen Theme)",
+  "name": "PharmaWatch-Theme",
+  "author": "Casey Harris/Zendesk Copenhagen Theme",
   "version": "2.0.1",
   "api_version": 2,
   "default_locale": "en-us",
