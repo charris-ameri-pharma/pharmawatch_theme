@@ -1,6 +1,6 @@
 {
   "name": "pharmawatch_theme",
-  "version": "2.0.1",
+  "version": "3.0.1",
   "repository": "git@github.com:charris-ameri-pharma/pharmawatch_theme.git",
   "dependencies": {
     "node-fetch": "^2.1.2"
