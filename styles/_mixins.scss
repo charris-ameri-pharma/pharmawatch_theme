@@ -1,3 +1,4 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
 // Mixins
 @mixin tablet {
   @media (min-width: #{$tablet-width}) {
@@ -13,6 +14,12 @@
 
 @mixin mobile {
   @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin only-tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
     @content;
   }
 }
@@ -51,6 +58,10 @@
   img {
     height: auto;
     max-width: 100%;
+    margin: 20px 0;
+    padding: 3px;
+    border: 1 px solid transparent;
+    box-shadow: 2px 2px 4px 4px #D3D4D5;
   }
 
   ul, ol {

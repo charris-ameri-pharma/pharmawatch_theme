@@ -5,6 +5,7 @@
   .dropdown-toggle::after {
     @include tablet { display: inline-block;}
     display: none;
+    @include visually-hidden;
   }
 
   > button {

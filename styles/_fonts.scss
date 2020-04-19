@@ -1,0 +1,47 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
+@font-face {
+  font-family: Pharmawatch;
+  src: url($assets-pharmawatch-ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pharma";
+  src: url($assets-pharma-eot);
+  src: local("Pharma"), url($assets-pharma-eot + '?#iefix') format("embedded-opentype"),
+    url($assets-pharma-woff) format("woff"), url($assets-pharma-ttf) format("truetype"),
+    url($assets-pharma-svg + '#pharma') format("svg"), url($assets-pharma-woff2) format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+004F-0050, U+0061, U+0068, U+006D, U+0070, U+0072;
+}
+
+@font-face {
+  font-family: "Watch";
+  /* src: local('Watch'), url("fonts/watch.ttf") format("truetype"); */
+  src: url($assets-watch-eot);
+  src: local("Watch"), url($assets-watch-eot + '?#iefix') format("embedded-opentype"), url($assets-watch-woff) format("woff"),
+    url($assets-watch-ttf) format("truetype"), url($assets-watch-svg + '#watch') format("svg"),
+    url($assets-watch-woff2) format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U_002A, U+0057, U+0061, U+0063, U+0068, U+0074, U+2122;
+}
+
+.pharma-text {
+  font-family: "Pharma", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.watch-text {
+  font-family: "Watch", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.pharma-text-blue {
+  font-family: "Pharma", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $pw-dark-blue;
+}
+.watch-text-orange {
+  font-family: "Watch", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $pw-orange;
+}

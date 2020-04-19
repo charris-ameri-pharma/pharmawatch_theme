@@ -1,10 +1,30 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
 /***** Hero component *****/
 .hero {
-  background-image: url($homepage_background_image);
+  background-color: $pw-std-gray;
+  // background: -webkit-linear-gradient(180deg, $pw-std-gray 0%, $pw-white 10%, $pw-white 60%, $pw-std-gray 100%); /* For Safari */
+  // background: -o-linear-gradient(180deg, $pw-std-gray 0%, $pw-white 10%, $pw-white 60%, $pw-std-gray 100%); /* For Opera 11.1 to 12.0 */
+  // background: -moz-linear-gradient(180deg, $pw-std-gray 0%, $pw-white 10%, $pw-white 60%, $pw-std-gray 100%); /* For Firefox 3.6 to 15 */
+  // background: linear-gradient(180deg, $pw-std-gray 0%, $pw-white 10%, $pw-white 60%, $pw-std-gray 100%); /* Standard syntax */
+  background: -webkit-linear-gradient(180deg, $pw-white 0%, $pw-white 40%, $pw-std-gray 100%); /* For Safari */
+  background: -o-linear-gradient(180deg, $pw-white 0%, $pw-white 40%, $pw-std-gray 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(180deg, $pw-white 0%, $pw-white 40%, $pw-std-gray 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(180deg, $pw-white 0%, $pw-white 40%, $pw-std-gray 100%); /* Standard syntax */
+  // background: -webkit-linear-gradient($pw-white, $pw-std-gray); /* For Safari */
+  // background: -o-linear-gradient($pw-white, $pw-std-gray); /* For Opera 11.1 to 12.0 */
+  // background: -moz-linear-gradient($pw-white, $pw-std-gray); /* For Firefox 3.6 to 15 */
+  // background: linear-gradient($pw-white, $pw-std-gray); /* Standard syntax */
+  border-bottom: 1px solid $pw-dark-blue;
+  padding: 3px 20px;
+  margin: 3px 0;
+  color: $pw-dark-blue;
+
+
+  // background-image: url($homepage_background_image);
   background-position: center;
   background-size: cover;
-  height: 300px;
-  padding: 0 20px;
+  min-height: 200px;
+  // padding: 0 20px;
   text-align: center;
   width: 100%;
 

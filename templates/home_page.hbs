@@ -1,17 +1,43 @@
+{{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
 <h1 class="visibility-hidden">{{ help_center.name }}</h1>
 
 <section id="main-content" class="section hero">
-  <div class="hero-inner">
-    <h2 class="visibility-hidden">{{ t 'search' }}</h2>
-    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
-      <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
-      <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
-    </svg>
-    {{search submit=false instant=settings.instant_search class='search search-full'}}
+  <div class="zd-container">
+    <div class="row">
+      <div class="col-sm-3 order-1 left-justify-text"
+        <p>Welcome to the <span class="pharma-text">Pharma</span><span class="watch-text">Watch&#8482;</span> Help Center! Thank you for allowing us to serve your monitoring and regulatory requirements! This help guide as well as interactive training videos are available through the web portal on the help tab.</p>
+      </div>
+      <div class="col-sm-6 order-sm-6 order-last">
+        <br>
+        <div class="d-none d-sm-block">
+          <img src="{{asset 'pwlogo.png'}}">
+        </div>
+        <div class="hero-inner ">
+          <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+            <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+            <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+          </svg>
+          {{search submit=false instant=settings.instant_search class='search search-full' placeholder='How can we help you?'}}
+        </div>
+      </div>
+      <div class="col-sm-3 order-12 left-justify-text">
+        <div class="left-justify-text">
+          <p>Should you need additional assistance with your <span class="pharma-text">Pharma</span><span class="watch-text">Watch&#8482;</span> monitoring service, our support staff are available via the Contact Us form, the Chat button, or by calling:</p>
+        </div>
+        <div class="center-justify-text">
+          <h3 class="big">1-888-234-5157</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">&nbsp;
+      </div>
+    </div>
   </div>
 </section>
 
-<div class="container">
+<div class="zd-container">
   <section class="section knowledge-base">
     <h2 class="visibility-hidden">{{ t 'categories' }}</h2>
     <section class="categories blocks">

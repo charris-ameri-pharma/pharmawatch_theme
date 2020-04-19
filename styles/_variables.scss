@@ -1,3 +1,4 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
 // Variables
 
 // Colors
@@ -39,3 +40,57 @@ $text_font: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-
 $font-weight-base: 400;
 $font-weight-light: 300;
 $font-weight-semibold: 600;
+
+$pw-white: white;
+$pw-dark-blue: #002a4a;
+$pw-light-blue: #22547d;
+$pw-title-blue: #036;
+$pw-highlight-blue: #0047a0;
+$pw-visited-blue: #0038a0;
+$pw-std-text: #666;
+$pw-dark-text: #333;
+$pw-green-text: #060;
+$pw-violet-text: #90f;
+$pw-print-text: #222;
+$pw-disabled-text: #999;
+$pw-modal-overlay: #666;
+$pw-orange: #eb6e04;
+$pw-std-gray: #eee;
+
+$pw-border-gray: #ccc;
+$pw-border-dark: gray;
+$pw-border-form: #9e9fa1;
+$pw-border-blue: #9aafe5;
+$pw-border-hover: #666;
+$pw-border-print: #222;
+
+$pw-background-gray: #f2f2f2;
+$pw-background-bluegray: #e0ebff;
+$pw-disabled-background: #ddd;
+$pw-button-focus: #333;
+$pw-box-shadow: #999;
+
+$pw-error: #ac260f;
+$pw-err-border: #eb5339;
+$pw-err-background: #fccac2;
+
+$pw-warning: #826200;
+$pw-warn-border: #ffc237;
+$pw-warn-background: #ffeaa8;
+
+$pw-success: #3c5a01;
+$pw-success-border: #99c600;
+$pw-success-background: #efffb9;
+
+$pw-chart-dark-blue: #679acc;
+$pw-chart-light-blue: #9bccff;
+$pw-chart-above-alert: #ff3232;
+$pw-chart-above-caution: orange;
+$pw-chart-target: lime;
+$pw-chart-below-caution: aqua;
+$pw-chart-below-alert: blue;
+$pw-chart-nodata: #f5f5f5;
+$pw-chart-text: black;
+
+$pw-chart-dark-blue-print: #7893e7;
+$pw-chart-light-blue-print: #c2d3ff;

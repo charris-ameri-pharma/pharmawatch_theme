@@ -1,3 +1,8 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
 @import "normalize";
 @import "variables";
 @import "mixins";
@@ -38,3 +43,4 @@
 @import "search_results";
 @import "notifications";
 @import "dropdowns";
+@import "fonts";

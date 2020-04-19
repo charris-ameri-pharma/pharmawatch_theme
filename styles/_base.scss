@@ -1,3 +1,4 @@
+// {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
 /***** Base *****/
 * {
   box-sizing: border-box;
@@ -26,13 +27,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 32px; }
+h1.big { font-size: 36px; }
+h1.bigger { font-size: 40px; }
+h1.huge { font-size: 48px; }
+h1.small { font-size: 28px; }
+h1.smaller { font-size: 24px; }
 h2 { font-size: 22px; }
+h2.big { font-size: 26px; }
+h2.bigger { font-size: 30px; }
+h2.small { font-size: 18px; }
+h2.smaller { font-size: 14px; }
 h3 {
   font-size: 18px;
   font-weight: $font-weight-semibold;
 }
+h3.big { font-size: 22px; }
+h3.bigger { font-size: 24px; }
+h3.small { font-size: 14px; }
+h3.smaller { font-size: 10px; }
 
 h4 { font-size: 16px; }
+h4.big { font-size: 20px; }
+h4.bigger { font-size: 24px; }
+h4.small { font-size: 12px; }
+h4.smaller { font-size: 8px; }
 
 a {
   color: $link_color;
@@ -104,11 +122,11 @@ textarea {
   }
 }
 
-.container {
+.zd-container {
   @include max-width-container;
 }
 
-.container-divider {
+.zd-container-divider {
   border-top: 1px solid $border-color;
   margin-bottom: 20px;
 }
@@ -125,4 +143,24 @@ ul {
 
 .visibility-hidden {
   @include visually-hidden;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.left-justify-text {
+  text-align: left;
+}
+
+.right-justify-text {
+  text-align: right;
+}
+
+.center-justify-text {
+  text-align: center;
+}
+
+.pw-dark-blue {
+  color: $pw-dark-blue;
 }
