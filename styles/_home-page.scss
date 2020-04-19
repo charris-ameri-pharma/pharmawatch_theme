@@ -1,11 +1,7 @@
 /***** Homepage *****/
 
 .section {
-  @include tablet {
-    margin-bottom: 60px;
-  }
-
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .home-section h2 {

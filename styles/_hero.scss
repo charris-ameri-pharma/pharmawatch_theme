@@ -15,7 +15,8 @@
   // background: -moz-linear-gradient($pw-white, $pw-std-gray); /* For Firefox 3.6 to 15 */
   // background: linear-gradient($pw-white, $pw-std-gray); /* Standard syntax */
   border-bottom: 1px solid $pw-dark-blue;
-  padding: 3px 20px;
+  border-top: 1px solid $pw-std-gray;
+  padding: 3px;
   margin: 3px 0;
   color: $pw-dark-blue;
 
@@ -29,7 +30,8 @@
   width: 100%;
 
   &-inner {
-    @include vertical-align;
+    // @include vertical-align;
+    position: relative;
     max-width: 610px;
     margin: 0 auto;
   }

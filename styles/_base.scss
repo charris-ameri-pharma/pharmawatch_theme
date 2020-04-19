@@ -26,7 +26,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
-h1 { font-size: 32px; }
+h1 {
+  font-size: 32px;
+  font-weight: $font-weight-semibold;
+  font-style: italic;
+}
 h1.big { font-size: 36px; }
 h1.bigger { font-size: 40px; }
 h1.huge { font-size: 48px; }
@@ -163,4 +167,57 @@ ul {
 
 .pw-dark-blue {
   color: $pw-dark-blue;
+}
+
+.pw-orange {
+  color: $pw-orange;
+}
+
+.push-right {
+  margin-right: -15px;
+}
+
+.push-left {
+  margin-left: -15px;
+}
+
+.pad-right {
+  padding-right: 15px;
+}
+
+.pad-left {
+  padding-left: 15px;
+}
+
+.title-bar {
+  background: -webkit-linear-gradient($pw-white, $pw-std-gray); /* For Safari */
+  background: -o-linear-gradient($pw-white, $pw-std-gray); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($pw-white, $pw-std-gray); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($pw-white, $pw-std-gray); /* Standard syntax */
+  border-bottom: 1px solid $pw-dark-blue;
+  padding: 4px;
+  color: $pw-dark-blue;
+}
+
+.sub-title-bar {
+  border-bottom: 1px solid $pw-dark-blue;
+  padding: 2px;
+  color: $pw-dark-blue;
+}
+
+.box-border {
+  border: 1px solid $pw-border-gray;
+  padding: 10px 5px 20px 5px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.center-vertical {
+  transform: translateY(-40%);
+  display: inline-block;
+  padding: 0 0 0 10px;
 }
