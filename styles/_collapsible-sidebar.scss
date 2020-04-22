@@ -57,6 +57,7 @@
   &-body {
     @include desktop { display: block; }
     display: none;
+    margin-top: 10px;
   }
 
   &[aria-expanded="true"] {

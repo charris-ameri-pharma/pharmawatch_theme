@@ -1,7 +1,7 @@
 {
   "name": "PharmaWatch-Theme",
   "author": "Casey Harris/Zendesk Copenhagen Theme",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
@@ -293,6 +293,18 @@
           "description": "article_sharing_description",
           "label": "article_sharing_label",
           "value": false
+        }
+      ]
+    },
+    {
+      "label": "category_page_group_label",
+      "variables": [
+        {
+          "identifier": "show_categories",
+          "type": "checkbox",
+          "description": "categories_description",
+          "label": "show_categories_label",
+          "value": true
         }
       ]
     },

@@ -1,4 +1,15 @@
 {{!-- /* MODIFIED FOR PHARMAWATCH */ --}}
+<script>
+  $(document).ready(function() {
+    console.log('trying');
+    $('.breadcrumbs li:visible').map(function() {
+        if (this.title =="PharmaWatch Portal") { $("#portal").addClass('current-article'); }
+        if (this.title =="Sensors/Installation") { $("#sensor").addClass('current-article');}
+        if (this.title =="PharmaWatch FAQ") { $("#faq").addClass('current-article');}
+        return false;
+    });
+  });
+</script>
 <div class="zd-container-divider"></div>
 <div class="zd-container">
   <nav class="sub-nav">
@@ -12,7 +23,39 @@
     </div>
   </nav>
 
-  <div class="section-container">
+  <div class="section-content-container">
+    <h2 class="visibility-hidden">{{ t 'categories' }}</h2>
+    <aside class="category-sidebar" aria-labelledby="category-view-title">
+      {{#if settings.show_categories}}
+        <div class="collapsible-sidebar">
+          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="category-view-title" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+            </svg>
+          </button>
+          <span id="category-view-title" class="collapsible-sidebar-title sidenav-title">
+            {{ t 'categories' }}
+          </span>
+          <div class="collapsible-sidebar-body">
+            <ul>
+              <li>
+                <a href="/hc/en-us/categories/360001333394-PharmaWatch-Portal" id="portal" class="sidenav-item ">PharmaWatch Portal</a>
+              </li>
+              <li>
+                <a href="/hc/en-us/categories/360002648333-Sensors-Installation" id="sensor" class="sidenav-item ">Sensors/Installation</a>
+              </li>
+              <li>
+                <a href="/hc/en-us/categories/360001200673-PharmaWatch-FAQ" id="faq" class="sidenav-item ">PharmaWatch FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      {{/if}}
+    </aside>
+
     <section id="main-content" class="section-content">
       <header class="page-header">
         <h1 class="title-bar">{{section.name}}</h1>

@@ -194,22 +194,29 @@
   &-title {
     font-size: $font-size-base;
     position: relative;
-    font-weight: 600;
+    font-weight: bolder;
+    padding-bottom: 10px;
   }
 
   &-item {
     border-radius: 4px;
-    color: $text_color;
+    color: $pw-white;
+    background: $pw-dark-blue url($assets-buttonhighlighter-png) repeat-x;
     display: block;
-    font-weight: $font-weight-light;
+    font-weight: 600;
     margin-bottom: 10px;
     padding: 10px;
 
-    &.current-article,
     &:hover {
-      background-color: $brand_color;
-      color: $brand_text_color;
+      background-color: $pw-light-blue;
+      color: $pw-white;
       text-decoration: none;
+    }
+    &.current-article {
+      background-color: $pw-white;
+      color: $pw-dark-blue;
+      text-decoration: none;
+      border: 2px solid $pw-dark-blue;
     }
   }
 }

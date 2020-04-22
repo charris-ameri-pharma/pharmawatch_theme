@@ -25,7 +25,7 @@
       </div>
       <div class="col-sm-3 order-12 left-justify-text">
         <div class="left-justify-text push-right">
-          <p>Should you need additional assistance with your <span class="pharma-text">Pharma</span><span class="watch-text">Watch&#8482;</span> monitoring service, our support staff are available via the Contact Us page, the Chat button <i class="far fa-question-circle"></i>, or by calling:</p>
+          <p>Should you need additional assistance with your <span class="pharma-text">Pharma</span><span class="watch-text">Watch&#8482;</span> monitoring service, our support staff are available by submitting a request or via the Contact Us page, the Chat button <i class="far fa-question-circle"></i>, or by calling:</p>
         </div>
         <div class="center-justify-text">
           <h3 class="big">1-888-234-5157</h3>
@@ -49,20 +49,9 @@
             <li class="blocks-item">
               <a href='{{url}}' class="blocks-item-link">
                 <span class="blocks-item-title">{{name}}</span>
-                <span class="blocks-item-description">{{excerpt description}}</span>
               </a>
+              <p class="blocks-item-description">{{excerpt description}}</p>
             </li>
-          {{else}}
-            {{#each sections}}
-              <li class="blocks-item">
-                <a href='{{url}}' class="blocks-item-link">
-                  <span class="blocks-item-title">
-                    {{name}}
-                  </span>
-                  <span class="blocks-item-description">{{excerpt description}}</span>
-                </a>
-              </li>
-            {{/each}}
           {{/if}}
         {{/each}}
       </ul>
