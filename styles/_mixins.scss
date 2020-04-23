@@ -64,6 +64,13 @@
     box-shadow: 2px 2px 4px 4px #D3D4D5;
   }
 
+  img.inline {
+    margin: 0;
+    padding: 3px 0;
+    border: none;
+    box-shadow: none;
+  }
+
   ul, ol {
     padding-left: 20px;
     list-style-position: outside;

@@ -1826,6 +1826,13 @@ ul {
   box-shadow: 2px 2px 4px 4px #D3D4D5;
 }
 
+.article-body img.inline {
+  margin: 0;
+  padding: 3px 0;
+  border: none;
+  box-shadow: none;
+}
+
 .article-body ul, .article-body ol {
   padding-left: 20px;
   list-style-position: outside;
@@ -2296,6 +2303,13 @@ ul {
   padding: 3px;
   border: 1 px solid transparent;
   box-shadow: 2px 2px 4px 4px #D3D4D5;
+}
+
+.comment-body img.inline {
+  margin: 0;
+  padding: 3px 0;
+  border: none;
+  box-shadow: none;
 }
 
 .comment-body ul, .comment-body ol {
@@ -2879,6 +2893,13 @@ ul {
   padding: 3px;
   border: 1 px solid transparent;
   box-shadow: 2px 2px 4px 4px #D3D4D5;
+}
+
+.post-body img.inline {
+  margin: 0;
+  padding: 3px 0;
+  border: none;
+  box-shadow: none;
 }
 
 .post-body ul, .post-body ol {
